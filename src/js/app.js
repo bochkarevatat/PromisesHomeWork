@@ -1,5 +1,3 @@
-import GameSavingLoader from './GameSavingLoader'
+import GameSavingLoader from './GameSavingLoader';
 
-GameSavingLoader.load()
-    .then((resolve) => resolve )
-    
+GameSavingLoader.load().then((resolve) => resolve);

@@ -11,7 +11,5 @@ test('return an object in correct format', async () => {
       points: 2000,
     },
   };
-  return GameSavingLoader.load().then((result) =>
-    expect(result).toEqual(expected)
-  );
-  });
+  return GameSavingLoader.load().then((result) => expect(result).toEqual(expected));
+});
